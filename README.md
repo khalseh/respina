@@ -22,9 +22,9 @@
 cd $HOME
 git clone https://github.com/khalseh/respina.git
 cd respina
-chmod +x respin.sh
-./respin.sh install
-./respin.sh 
+chmod +x ketman.sh
+./ketman.sh install
+./ketman.sh 
 # Enter a phone number & confirmation code.
 
 # For Auto Launch:
@@ -35,11 +35,11 @@ screen ./autobd.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/khalseh/respina.git && cd respina && chmod +x respin.sh && ./respin.sh install && ./respin.sh
+cd $HOME && git clone https://github.com/khalseh/respina.git && cd respina && chmod +x ketman.sh && ./ketman.sh install && ./ketman.sh
 
 OR
 
-cd $HOME && git clone https://github.com/khalseh/respina.git && cd respina && chmod +x respin.sh && ./respin.sh install && chmod 777 autobd.sh && screen ./autobd.sh
+cd $HOME && git clone https://github.com/khalseh/respina.git && cd respina && chmod +x ketman.sh && ./ketman.sh install && chmod 777 autobd.sh && screen ./autobd.sh
 ```
 
 * * *
